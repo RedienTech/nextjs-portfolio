@@ -1,21 +1,35 @@
 import React from 'react'
+import { Carrer } from './texts'
 
-export default function FourthBlock(){
+export default function FourthBlock() {
     return (
-        <div className="row pt-3 mx-auto forty">
-            <div className="col-md-4 sm-12 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe iusto eligendi praesentium ex, cumque itaque maxime in eum magni odio quo ea esse consectetur dolores, nulla nostrum velit ipsa libero?</div>
+        <div className="row pt-5 mx-auto forty" data-aos="fade-down">
+            <Carrer title="Frontend Developer" src="/frontend.svg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum, earum adipisicing elit. Itaque dolorum, earum adip
+            </Carrer>
 
-            <div className="col-md-4 sm-12 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe iusto eligendi praesentium ex, cumque itaque maxime in eum magni odio quo ea esse consectetur dolores, nulla nostrum velit ipsa libero?</div>
+            <Carrer title="Backend Developer" src="/backend.svg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum, earum adipisicing elit. Itaque dolorum, earum adip
+            </Carrer>
+            
 
-            <div className="col-md-4 sm-12 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe iusto eligendi praesentium ex, cumque itaque maxime in eum magni odio quo ea esse consectetur dolores, nulla nostrum velit ipsa libero?</div>
-        <style jsx>{`
+            <Carrer title="Data Scientist" src="/data.svg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum, earum adipisicing elit. Itaque dolorum, earum adip
+            </Carrer>
+            <style jsx>{`
             .know-title {
                 color: #006bb3;
-                value: 80%;
+                font-weight: bold;
+            }
+
+            .descripcion {
+                color: #006bb3;
+                width: 90%;
+                font-weight: light;
             }
 
             .forty {
-                width: 90%
+                width: 93%
             }
         `}</style>
         </div>
