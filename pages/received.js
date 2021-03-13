@@ -7,7 +7,7 @@ export default function Received() {
         <div className="row py-5">
           <div className="col-md-12 text-center pb-4">
             <h3 className="mx-auto sended font-weight-bold text-center">
-              Message Succesfully Sended!!
+              Mensaje Enviado Exitosamente
             </h3>
           </div>
           <div className="col-md-8 mx-auto">

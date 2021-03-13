@@ -10,13 +10,10 @@ export default function FifthBlock() {
             className="more font-weight-bold text-center mx-auto col-md-12"
             data-aos="fade-up"
           >
-            ¿Do you want to know more about me?
+            ¿Quieres Saber Mas Sobre Mi?
           </h3>
           <p className="text-center mx-auto contact" data-aos="fade-up">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            harum enim quam, officiis dolore neque reiciendis itaque optio
-            voluptatum. Minus labore mollitia blanditiis, similique sint quidem
-            dolor? Deserunt, labore adipisci.
+            Tengo varios proyectos que he emprendido para masterisarme en el uso de las distintas tecnologias, puedes verlos en el enlace de abajo o directamente en mi cuenta de GitHub. O si quieres un resumen de mis habilidades puedes acceder a mi Curriculum Vitae.
           </p>
         </div>
       </div>
@@ -28,7 +25,7 @@ export default function FifthBlock() {
                 className="mx-auto nav-link boton text-center"
                 data-aos="fade-up"
               >
-                See My Work
+                Mis Proyectos
               </a>
             </Link>
           </div>
@@ -36,8 +33,10 @@ export default function FifthBlock() {
         <div className="col-sm-6">
           <div className="col-sm-6 mr-auto pb-4">
             <a
+              target="_blank"
               className="mx-auto nav-link boton text-center"
               data-aos="fade-up"
+              href="https://drive.google.com/file/d/11to19afxKwjMCmMbTyFY5ZkssFDR-5jK/view?usp=sharing"
             >
               Descargar CV
             </a>

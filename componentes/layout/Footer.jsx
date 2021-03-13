@@ -10,13 +10,12 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-4 align-middle">
               <h3 className="mx-auto text-center font-weight-bold mt-3">
-                Let's Talk
+                Hablemos!
               </h3>
             </div>
             <div className="col-md-4">
               <p className="text-center font-weight-regular align-middle">
-                If you want to work with me, please send me a message in the
-                following link
+                Si te interesa tenerme en tu equipo puedes enviarme un mensaje en el siguiente enlace
               </p>
             </div>
             <div className="text-center col-md-4 mt-3">

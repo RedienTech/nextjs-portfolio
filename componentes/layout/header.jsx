@@ -32,11 +32,11 @@ export default function Header() {
       </button>
       <div className="collapse navbar-collapse ml-auto" id="navbarNavAltMarkup">
         <div className="navbar-nav ml-auto">
-          <a className="nav-link boton-sobremi" href="#about-me">
+          <a className="nav-link boton-sobremi pr-3" href="/#about-me">
             Sobre mi!!
           </a>
-          <Link href="/contact">
-            <a className="nav-link boton-contactar">Contactar</a>
+          <Link href="/contact" >
+            <button className="nav-link boton-contactar mr-auto">Contactar</button>
           </Link>
         </div>
       </div>
@@ -46,9 +46,10 @@ export default function Header() {
         }
 
         .boton-contactar {
-          margin-left: 20px;
+          width: 48.5%;
+          background-color: #fff;
           border: solid 2px #09f;
-          border-radius: 3em;
+          border-radius: 2em;
           color: #09f;
         }
 

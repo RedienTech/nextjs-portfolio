@@ -7,7 +7,7 @@ export default function Proyect({ src, title, children }) {
         <div className="card-body">
           <div className="mx-auto">
             <div className="col-md-6 mx-auto pb-2">
-              <img src={src} className="img-fluid mx-auto" alt="" />
+              <img src={src} className="img-fluid mx-auto" alt={title} />
             </div>
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{children}</p>

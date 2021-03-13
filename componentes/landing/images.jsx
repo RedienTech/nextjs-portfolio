@@ -25,7 +25,7 @@ export function ImageTec({src, children, name}) {
 
 export function ImageNet({src, children, link, alt}) {
     return (
-        <div className="col-sm-4">
+        <div className="col-4">
             <img src={src} className="white mx-auto w-25 d-block pt-5 pb-2" alt={alt}/>
             <h6 className="text-center font-weight-bold text-white">{link}</h6>
             <p className="w-50 mx-auto text-white text-center pb-5">{children}</p>

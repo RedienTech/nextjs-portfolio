@@ -7,10 +7,13 @@ export default function FirstBlock() {
     return (
         <div className="mx-auto" style={{ width: "80%" }}>
             <div className="row align-middle py-5">
-                <div className="col-md-6 col-sm-12 my-auto">
-                    <h1 className="font-weight-bold" style={{ color: "#006bb3", fontSize: "70px" }}> <Typed strings={["Hello World", "I'm Neider", "Please, let me talk you about me!"]} typeSpeed={70} loop={false} backSpeed={50} /> </h1>
+                <div className="col-md-6 col-sm-12 my-auto d-none d-md-block">
+                    <h1 className="font-weight-bold" style={{ color: "#006bb3", fontSize: "3em" }}> <Typed strings={["Hola Mundo!", "Soy Neider", "Por favor, dejame hablarte de mi!"]} typeSpeed={70} loop={false} backSpeed={50} /> </h1>
                 </div>
-                <div className="col-md-6 col-sm-12 ml-auto">
+                <div className="col-md-6 col-sm-12 my-auto text-center d-md-none pb-4">
+                    <h1 className="font-weight-bold" style={{ color: "#006bb3", fontSize: "3em" }}> <Typed strings={["Hello World", "I'm Neider"]} typeSpeed={70} loop={false} backSpeed={50} /> </h1>
+                </div>
+                <div className="col-md-6 col-sm-12 ml-auto my-auto">
                     <Animation />
                 </div>
             </div>

@@ -7,8 +7,8 @@ export default function ThirdBlock() {
   return (
     <div className="row pt-3 mx-auto">
       <div className="super">
-        <h3 data-aos="fade-up" className="text-center skill-title font-weight-bold pt-3">Lets talk about my skills!</h3>
-        <p className="text-center description" data-aos="fade-up">Those are some of the tecnologies that i have learned in Frontend and Backend in my path to become a FullStack developer</p>
+        <h3 data-aos="fade-up" className="text-center skill-title font-weight-bold pt-3">Hablemos De Mis Habilidades!</h3>
+        <p className="text-center description" data-aos="fade-up">Estas son algunas de las tecnologias que he aprendido y usado en mi camino a ser desarrollador web y cientifico de datos</p>
         <div className="row cont mx-auto" data-aos="fade-up">
           
 

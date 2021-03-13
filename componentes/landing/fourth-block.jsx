@@ -5,16 +5,16 @@ export default function FourthBlock() {
     return (
         <div className="row pt-5 mx-auto forty" data-aos="fade-down">
             <Carrer title="Frontend Developer" src="/frontend.svg" alt="Imagen de Frontend">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum, earum adipisicing elit. Itaque dolorum, earum adip
+            Dominio de Ajax, SPA y desarrollo de paginas con Responsive Design. Manejo distintas librerias de frontend, entre ellas Angular, React, y Svelte. Soy un apasionado del internet y amo aportar a que sea cada vez mas grande.
             </Carrer>
 
             <Carrer title="Backend Developer" src="/backend.svg" alt="Imagen de Frontend">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum, earum adipisicing elit. Itaque dolorum, earum adip
+            Creacion de servidores backend utilizando distintas herramientas como Node Js, PHP o Django. Domino el uso de distintas bases de datos tanto relacionales como no relacionales, entre ellas mongoDB, MySQL y SQLite. 
             </Carrer>
             
 
             <Carrer title="Data Scientist" src="/data.svg" alt="Imagen de Frontend">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum, earum adipisicing elit. Itaque dolorum, earum adip
+            La estadistica es mi rama favorita de las matematicas, tengo facilidad obteniendo informacion util de los grandes conjuntos de datos y domino distintas librerias dentro de lenguajes como Python y R, siendo el primero mi especialidad.
             </Carrer>
             <style jsx>{`
             .know-title {

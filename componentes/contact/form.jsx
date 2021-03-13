@@ -53,12 +53,12 @@ const [load, setLoad] = useState(false);
   return (
     <React.Fragment>
       <h3 className="text-center mx-auto font-weight-bold title pb-2">
-        Send me an Email!!
+        Enviame un Email!!
       </h3>
       <form onSubmit={formik.handleSubmit}>
         <div className="row">
           <div className="col-md-6 form-group">
-            <label htmlFor="nombre">Name</label>
+            <label htmlFor="nombre">Nombre</label>
             <input
               type="text"
               id="name"
@@ -90,7 +90,7 @@ const [load, setLoad] = useState(false);
         </div>
         <div className="row">
           <div className="col-md-12 form-group">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Mensaje</label>
             <textarea
               className="form-control"
               id="message"
