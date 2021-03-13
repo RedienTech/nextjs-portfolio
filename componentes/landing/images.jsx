@@ -10,7 +10,7 @@ export function Animation() {
 
 export function ImageTec({src, children, name}) {
     return (
-        <div className="col-md-2 col-sm-4">
+        <div className="col-md-2 col-4">
             <img src={src} className="white mx-auto w-25 d-block pt-3 pb-2" alt={name}/>
             <h6 className="text-center name font-weight-bold">{name}</h6>
             <p className="w-50 mx-auto text-black text-center pb-5">{children}</p>
