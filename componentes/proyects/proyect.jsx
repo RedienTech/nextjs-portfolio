@@ -11,8 +11,8 @@ export default function Proyect({ src, title, children }) {
             </div>
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{children}</p>
-            <a href="#" className="btn btn-primary enlace mt-auto">
-              Go somewhere
+            <a href="link" target="_blank" className="btn btn-primary enlace mt-auto">
+              Visitar
             </a>
           </div>
         </div>
