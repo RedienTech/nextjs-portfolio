@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { useFormik } from "formik";
 import {useRouter} from "next/router"
 import emailjs from "emailjs-com";
 
 const validate = (values) => {
+
   const errors = {};
   if (!values.email) {
     errors.email = "Email Required";
@@ -21,6 +22,8 @@ export default function FormEmail() {
 
 const router = useRouter()
 
+const [load, setLoad] = useState(false);
+
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -28,7 +31,21 @@ const router = useRouter()
       message: "",
     },
     onSubmit: (values) => {
-      router.push("/received")
+      setLoad(true)
+      emailjs.send("service_whnzjgj","template_flgih6j",{
+        to_name: "Neider",
+        from_name: values.name,
+        message: values.message,
+        reply_to: values.email,
+        }).then (res => {
+          if (res.status === 200){
+            setLoad(false)
+            router.push("/received")
+          } else {
+            setLoad(false)
+            alert("Ha ocurrido un error en el envio del Email")
+          }
+        })
     },
     validate
   });
@@ -88,12 +105,29 @@ const router = useRouter()
           </div>
         </div>
         <div className="row text-center">
-          <button type="submit" className="mx-auto btn">
-            Enviar
-          </button>
+          {load ? <div className="spinner mx-auto"> </div> : <button type="submit" className="mx-auto btn ">Enviar</button>}
         </div>
       </form>
       <style jsx>{`
+        .spinner {
+          border: 4px solid rgba(0, 0, 0, .1);
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          border-left-color: #09f;
+
+          animation: spin 1s ease infinite
+        }
+
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100%{
+            transform: rotate(360deg)
+          }
+        }
+
         .error {
           color: red;
         }

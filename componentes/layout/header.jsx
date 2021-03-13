@@ -10,6 +10,7 @@ export default function Header() {
           src="/nuevo-logo.svg"
           className="img-fluid logo"
           style={{ width: "100px" }}
+          alt="Logo de Redien"
           whileHover={{
             boxShadow: "0px 0px 8px rgb(0, 0, 0)",
             cursor: "pointer",

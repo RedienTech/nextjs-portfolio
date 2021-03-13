@@ -5,15 +5,18 @@ import FifthBlock from '../componentes/landing/fifth-block';
 import FirstBlock from '../componentes/landing/first-block';
 import FourthBlock from '../componentes/landing/fourth-block';
 import ThirdBlock from '../componentes/landing/third-block';
+import {Helmet} from 'react-helmet';
 
 
 export default function Home() {
   return (
     <React.Fragment>
-      <Head>
-        <title>Neider Arroyo</title>
+      <Helmet >
+        <title>Redien | Home</title>
+        <html lang="es"></html>
+        <meta name="description" content="Informacion sobre mi y mis facultades en Programacion Web"/>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Helmet>
       <FirstBlock />
       <AboutMe />
       <ThirdBlock />

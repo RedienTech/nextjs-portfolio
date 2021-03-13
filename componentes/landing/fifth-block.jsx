@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function FifthBlock() {
@@ -5,7 +6,10 @@ export default function FifthBlock() {
     <React.Fragment>
       <div className="row mx-auto bloque">
         <div className="col-md-12 mx-auto">
-          <h3 className="more font-weight-bold text-center mx-auto col-md-12" data-aos="fade-up">
+          <h3
+            className="more font-weight-bold text-center mx-auto col-md-12"
+            data-aos="fade-up"
+          >
             ¿Do you want to know more about me?
           </h3>
           <p className="text-center mx-auto contact" data-aos="fade-up">
@@ -18,13 +22,25 @@ export default function FifthBlock() {
       </div>
       <div className="row mx-auto cont">
         <div className="col-sm-6">
-        <div className="col-sm-6 ml-auto pb-4">
-            <a className="mx-auto nav-link boton text-center" data-aos="fade-up">See My Work</a>
+          <div className="col-sm-6 ml-auto pb-4">
+            <Link href="/proyects">
+              <a
+                className="mx-auto nav-link boton text-center"
+                data-aos="fade-up"
+              >
+                See My Work
+              </a>
+            </Link>
           </div>
         </div>
         <div className="col-sm-6">
           <div className="col-sm-6 mr-auto pb-4">
-            <a className="mx-auto nav-link boton text-center" data-aos="fade-up">Descargar CV</a>
+            <a
+              className="mx-auto nav-link boton text-center"
+              data-aos="fade-up"
+            >
+              Descargar CV
+            </a>
           </div>
         </div>
       </div>

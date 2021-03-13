@@ -12,7 +12,7 @@ export default function ThirdBlock() {
         <div className="row cont mx-auto" data-aos="fade-up">
           
 
-          <ImageTec src="/react.svg" name="React" />
+          <ImageTec src="/react.svg" name="React"/>
           <ImageTec src="/angular.svg" name="Angular" className="central"/>
           <ImageTec src="/javascript.svg" name="JavaScript" />
           <ImageTec src="/sass.svg" name="Sass" />

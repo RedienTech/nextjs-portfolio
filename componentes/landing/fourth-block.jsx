@@ -4,16 +4,16 @@ import { Carrer } from './texts'
 export default function FourthBlock() {
     return (
         <div className="row pt-5 mx-auto forty" data-aos="fade-down">
-            <Carrer title="Frontend Developer" src="/frontend.svg">
+            <Carrer title="Frontend Developer" src="/frontend.svg" alt="Imagen de Frontend">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum, earum adipisicing elit. Itaque dolorum, earum adip
             </Carrer>
 
-            <Carrer title="Backend Developer" src="/backend.svg">
+            <Carrer title="Backend Developer" src="/backend.svg" alt="Imagen de Frontend">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum, earum adipisicing elit. Itaque dolorum, earum adip
             </Carrer>
             
 
-            <Carrer title="Data Scientist" src="/data.svg">
+            <Carrer title="Data Scientist" src="/data.svg" alt="Imagen de Frontend">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum, earum adipisicing elit. Itaque dolorum, earum adip
             </Carrer>
             <style jsx>{`

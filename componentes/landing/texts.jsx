@@ -17,7 +17,7 @@ export function Presentation() {
     )
 }
 
-export function Carrer({ title, src, children }) {
+export function Carrer({ title, src, children, alt }) {
     return (
         <React.Fragment>
             <div className="col-md-4 sm-12 text-center border-left border-right">
@@ -25,7 +25,7 @@ export function Carrer({ title, src, children }) {
                     className="py-3" 
                     style={{width: "20%"}}
                     src={src}
-                    alt="Frontend sign"
+                    alt={alt}
                     whileHover={{scale: 1.1, cursor: 'pointer', y:-20}}>
                 </motion.img>
                 <h5 className="know-title" >{title}</h5>
