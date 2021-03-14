@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Proyect({ src, title, children }) {
+export default function Proyect({ src, title, children, link }) {
   return (
     <div className="col-md-4 pb-5">
       <div className="card">
@@ -11,7 +11,7 @@ export default function Proyect({ src, title, children }) {
             </div>
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{children}</p>
-            <a href="link" target="_blank" className="btn btn-primary enlace mt-auto">
+            <a href={link} target="_blank" className="btn btn-primary enlace mt-auto">
               Visitar
             </a>
           </div>

@@ -12,8 +12,9 @@ export default function Mosaico() {
             </h3>
             <p className="font-weight-lighter pb-4">
               Estos son algunos de los proyectos que he emprendido con el
-              objetivo de fortalecer mis habilidades como programador, espero
-              que alguno de ellos sea de tu agrado
+              Objetivo de fortalecer mis habilidades como programador, espero
+              Que alguno de ellos sea de tu agrado
+
             </p>
             <div className="row mx-auto">
               <Proyect 
@@ -21,27 +22,21 @@ export default function Mosaico() {
                 title="Pictor Flask"
                 link="https://github.com/RedienTech/flask-pictor"
               >
-                Una aplicacion entera para compartir imagenes, desarrollada
-                usando la libreria Flask de Python (Login, registro, subida,
-                descarga, edicion de imagenes y motor de busqueda)
+                Una aplicación entera para compartir imágenes, desarrollada usando la librería Flask de Python (Login, registro, subida, descarga, edición de imágenes y motor de búsqueda)
               </Proyect>
               <Proyect 
                 src="/work/social-network.svg" 
                 title="Artisans PHP"
                 link="https://github.com/RedienTech/artisans-php"
                 >
-                Una red social desarrolada en PHP y MySql en 4 horas desde cero.
-                Incluye login, registro, publicaciones, comentarios, mensajes,
-                amistades y sistema de likes
+                Una red social desarrollada en PHP y MySql en 4 horas desde cero. Incluye login, registro, publicaciones, comentarios, mensajes, amistades y sistema de likes.
               </Proyect>
               <Proyect
                 src="/work/regresion.svg"
                 title="Regresion Lineal Multiple"
                 link ="https://github.com/RedienTech/Regresion-Lineal-Multiple"
               >
-                El desarrollo de una Regresion Lineal multiple usando ecuacion
-                normal y descenso del gradiente, todo desde cero y sobre una
-                base de datos basada en precios de casas en la ciudad de Boston
+                El desarrollo de una Regresión Lineal múltiple usando ecuación normal y descenso del gradiente, todo desde cero y sobre una base de datos basada en precios de casas en la ciudad de Boston
               </Proyect>
               <Proyect 
                 src="/work/api.svg" 
@@ -57,20 +52,14 @@ export default function Mosaico() {
                 title="Portafolio Web" 
                 link="https://github.com/RedienTech/nextjs-portfolio"
               >
-                Un portafolio web creado desde cero con NEXT JS, aplicacion de
-                SEO y SSR. Desplegado a traves de Vercel y mantenido en
-                repositorio de GitHub. Tiene atencion a la accesibilidad y
-                Responsive Design
+                Un portafolio web creado desde cero con NEXT JS, aplicación de SEO y SSR. Desplegado a través de Vercel y mantenido en repositorio de GitHub. Tiene atención a la accesibilidad y Responsive Design
               </Proyect>
               <Proyect 
                 src="/work/neural.svg" 
                 title="Red Neuronal"
                 link="https://colab.research.google.com/drive/1RnLoaNvoGcTFhZZRVpzPpRWsVcz5FV1F"
               >
-                La implementacion de una red neuronal desde cero, capaz de
-                separar conjuntos de datos irregulares y realizada sin utilizar
-                ninguna libreria de Machine Learning. Aplicando metodo de
-                descenso del gradiente
+                La implementación de una red neuronal desde cero, capaz de separar conjuntos de datos irregulares, desarrollada sin utilizar ninguna librería de Machine Learning. Aplicando método de descenso del gradiente
               </Proyect>
             </div>
           </div>

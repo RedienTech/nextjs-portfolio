@@ -13,7 +13,7 @@ export default function FifthBlock() {
             ¿Quieres Saber Mas Sobre Mi?
           </h3>
           <p className="text-center mx-auto contact" data-aos="fade-up">
-            Tengo varios proyectos que he emprendido para masterisarme en el uso de las distintas tecnologias, puedes verlos en el enlace de abajo o directamente en mi cuenta de GitHub. O si quieres un resumen de mis habilidades puedes acceder a mi Curriculum Vitae.
+          Tengo varios proyectos que he emprendido para martirizarme en el uso de las distintas tecnologías, puedes verlos en el enlace de abajo o directamente en mi cuenta de GitHub. O si quieres un resumen de mis habilidades puedes acceder a mi Curriculum Vitae.
           </p>
         </div>
       </div>

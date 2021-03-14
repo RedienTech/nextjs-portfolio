@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-lg cont mx-auto">
+    <nav className="navbar navbar-expand-md cont mx-auto">
       <Link href="/">
         <motion.img
           src="/nuevo-logo.svg"

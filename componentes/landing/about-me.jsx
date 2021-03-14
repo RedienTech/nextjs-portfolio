@@ -10,7 +10,7 @@ export default function AboutMe() {
                     <h3 className="text-center title text-white mx-auto font-weight-bold col-md-12">
                         ¿Quien Soy?
                     </h3>
-                    <p className="text-center mx-auto pt-1 typo">Nací en Chinu, Colombia. Actualmente soy un programador junior en busca de hacer crecer mi vida profesional. Desde muy joven la tecnologia ha sido una parte fundamental de mi vida, y siempre fue mi deseo entender como funcionaba todo aquello que me hacia tan feliz. Desde que inicie este viaje mi gran sueño siempre ha sido trabajar rodeado de personas talentosas de las cuales pueda aprender, y poder dar uso a todas mis habilidades con el fin de impulsar ideas y proyectos. Tengo una gran facilidad para aprender cosas nuevas y el trabajo duro ha sido la clave para poder ser lo hoy en dia soy.</p>
+                    <p className="text-center mx-auto pt-1 typo">Nací en Chinú, Colombia. Actualmente soy un programador junior en busca de hacer crecer mi vida profesional. Desde muy joven la tecnología ha sido una parte fundamental de mi vida, y siempre fue mi deseo entender cómo funcionaba todo aquello que me hacía tan feliz. Desde que inicie este viaje mi gran sueño siempre ha sido trabajar rodeado de personas talentosas de las cuales pueda aprender, y poder dar uso a todas mis habilidades con el fin de impulsar ideas y proyectos. Tengo una gran facilidad para aprender cosas nuevas y el trabajo duro ha sido la clave para poder ser lo que hoy en día soy.</p>
                 </div>
             </div>
 
